@@ -11,8 +11,9 @@ while True:
     if players.isdigit():
         players =int(players)
         if 2 <= players <= 4:
-            print("Must be 2 to 4")
             break
+        else:
+            print("Must be 2 to 4")
     else:
         print("Invalid, try again! ")
 
